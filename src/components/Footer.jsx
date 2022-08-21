@@ -57,7 +57,7 @@ export function Footer() {
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container as={Stack} maxW={'6xl'} py={10}>
         <SimpleGrid
-          templateColumns={{ sm: '1fr 2fr', md: '2fr 1fr' }}
+          templateColumns={{ sm: '1fr 1fr', md: '1fr 1fr' }}
           p={2}
           spacing={8}
         >
@@ -65,7 +65,7 @@ export function Footer() {
             <Box>
               <Text fontSize={"md"} fontWeight="bold">Yagodev</Text>
             </Box>
-            <Text fontSize={'sm'}>
+            <Text>
               © 2022 Chakra Templates. All rights reserved
             </Text>
             <Stack direction={'row'} spacing={6}>
@@ -82,7 +82,7 @@ export function Footer() {
           </Stack>
 
           <Stack align={'flex-end'}>
-            <ListHeader>Company</ListHeader>
+            <ListHeader>Navegação</ListHeader>
             <Link href={'#'}>Home</Link>
             <Link href={'#'}>Portifolio</Link>
             <Link href={'#'}>Trabalhos</Link>

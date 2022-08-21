@@ -6,6 +6,7 @@ export const IllustrationHero = (props) => {
   return (
     <Icon
       width="100%"
+      height="26rem"
       viewBox="0 0 702 448"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

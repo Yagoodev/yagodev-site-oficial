@@ -25,16 +25,16 @@ export function Hero() {
       >
         <Heading
           fontWeight={600}
-          fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
-          lineHeight={'110%'}>
-          Desenvolvimento de
-          <Text as={'span'} fontWeight="bold" ml={4} color={'blue.400'}>
+          fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
+          lineHeight={'110%'}
+        >
+            Desenvolvimento de {' '}
+          <Text as={'span'} fontWeight="bold" color={'blue.400'}>
             Sistemas
           </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
-          Encontre a forma perfeita para solucionar os seus <br />
-          problemas de técnologia.
+          Encontre a forma perfeita para solucionar os seus problemas de técnologia.
         </Text>
         <Stack spacing={6} direction={'row'}>
           <Button
@@ -47,8 +47,8 @@ export function Hero() {
         </Stack>
         <Flex w={'full'}>
           <IllustrationHero
-            height={{ sm: '24rem', lg: '28rem' }}
-            mt={{ base: 12, sm: 16 }}
+            height='28rem'
+            mt={{ base: 6, sm: 6 }}
           />
         </Flex>
       </Stack>
